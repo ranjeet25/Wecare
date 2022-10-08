@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from "react";
+import { Outlet, Link } from "react-router-dom";
 import {
-Navbar,
+Navbar, 
 MobileNav,
 Typography,
 Button,
@@ -56,9 +57,9 @@ function Navigation() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
-            About us
-          </a>
+          
+           <Link className="flex items-center" to="/test">TEST</Link>
+         
         </Typography>
       </ul>
     );
