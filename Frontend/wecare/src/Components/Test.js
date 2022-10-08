@@ -1,8 +1,9 @@
 import React from 'react'
+import { Button } from "@material-tailwind/react";
 
 function Test() {
   return (
-    <div> we are WECARE</div>
+     <Button>Button</Button>
   )
 }
 
