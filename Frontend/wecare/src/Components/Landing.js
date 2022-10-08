@@ -46,7 +46,7 @@ function Landing() {
                 color="amber"
                 className=" lg:inline-block mr-4 font-dmsans"
               >
-                Generate Code
+                Consult Now
               </Button>
             </Link>
             <a
@@ -54,7 +54,7 @@ function Landing() {
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-amber-700"
             >
-              Verify Code
+              Other services
             </a>
           </div>
         </div>
