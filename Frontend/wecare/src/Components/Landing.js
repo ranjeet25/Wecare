@@ -39,7 +39,7 @@ function Landing() {
             </p>
           </div>
           <div className="flex items-center">
-            <Link to="/GenerateCode">
+            <Link to="/login">
               <Button
                 variant="gradient"
                 size="md"
