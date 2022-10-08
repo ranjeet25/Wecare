@@ -24,7 +24,7 @@ function Navigation() {
         <Typography
           as="li"
           variant="small"
-          color="blue-gray"
+          color="white"
           className="p-1 font-normal"
         >
           <a href="#" className="flex items-center">
@@ -34,7 +34,7 @@ function Navigation() {
         <Typography
           as="li"
           variant="small"
-          color="blue-gray"
+          color="white"
           className="p-1 font-normal"
         >
           <a href="#" className="flex items-center">
@@ -44,7 +44,7 @@ function Navigation() {
         <Typography
           as="li"
           variant="small"
-          color="blue-gray"
+          color="white"
           className="p-1 font-normal"
         >
           <a href="#" className="flex items-center">
@@ -54,7 +54,7 @@ function Navigation() {
         <Typography
           as="li"
           variant="small"
-          color="blue-gray"
+          color="white"
           className="p-1 font-normal"
         >
           
@@ -65,8 +65,8 @@ function Navigation() {
     );
    
     return (
-      <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 " >
-        <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+      <Navbar className="bg-blue-500 mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 " >
+        <div className="container mx-auto flex items-center justify-between text-white-900">
           <Typography
             as="a"
             href="#"
@@ -76,7 +76,7 @@ function Navigation() {
             <span>WeCare</span>
           </Typography>
           <div className="hidden lg:block">{navList}</div>
-           <Link to="/login"><Button variant="gradient" color='amber' size="sm" className="hidden lg:inline-block">
+           <Link to="/login"><Button variant="gradient" color='white' size="sm" className="hidden lg:inline-block">
           <span>LOGIN</span>
           </Button></Link>
           <IconButton
@@ -119,7 +119,7 @@ function Navigation() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" color='Amber' size="sm" fullWidth className="mb-2">
+          <Button variant="gradient" color='blue' size="sm" fullWidth className="mb-2">
             <span>LOGIN</span>
           </Button>
         </MobileNav>

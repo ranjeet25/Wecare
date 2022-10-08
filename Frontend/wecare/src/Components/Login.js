@@ -2,7 +2,7 @@ import React from 'react'
 
 function Login() {
   return (
-    <div className='main bg-amber-700 h-screen flex justify-center items-center'>
+    <div className='main bg-blue-200 h-screen flex justify-center items-center'>
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-white">
       <div className="flex flex-col justify-between lg:flex-row">
         <div className="mb-12 lg:max-w-lg lg:pr-5 lg:mb-0">
@@ -43,7 +43,7 @@ function Login() {
           <div className="flex justify-center w-full mb-3">
             <a
               href="/"
-              className=" bg-amber-700 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className=" bg-blue-700 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               <div className="flex items-center ">
                 <div className="mr-3 font-semibold  text-white">

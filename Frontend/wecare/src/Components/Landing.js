@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from './Navbar'
 import { Outlet, Link } from "react-router-dom";
 import { Button } from "@material-tailwind/react";
-import bg from "../Assets/images/verify-bg.svg";
+import bg from "../Assets/images/hospital.gif";
 
 function Landing() {
   return (
@@ -13,7 +13,7 @@ function Landing() {
         <div className="mt-8">
           <img
             src={bg}
-            className="object-cover object-top w-full h-64 mx-auto lg:h-auto xl:mr-24 md:max-w-sm"
+            className=" scale-125 object-cover object-top w-full h-64 mx-auto lg:h-auto xl:mr-24 md:max-w-sm"
             alt="imjoker"
           />
         </div>
@@ -43,7 +43,7 @@ function Landing() {
               <Button
                 variant="gradient"
                 size="md"
-                color="amber"
+                color="blue"
                 className=" lg:inline-block mr-4 font-dmsans"
               >
                 Consult Now
