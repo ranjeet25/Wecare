@@ -50,9 +50,9 @@ function Landing() {
               </Button>
             </Link>
             <a
-              href="/"
+              href="/dashbox"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-amber-700"
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-blue-700"
             >
               Other services
             </a>
