@@ -1,2 +1,2 @@
-# 4bits
+# Wecare 🎯
 ACHEMIA HACK 2022 
