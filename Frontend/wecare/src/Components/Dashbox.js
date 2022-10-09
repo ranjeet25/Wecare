@@ -1,4 +1,6 @@
 import React from 'react'
+import Dlist from './Dlist';
+import { Link } from 'react-router-dom';
 import p1 from "../Assets/images/health-check.jpg";
 import p2 from "../Assets/images/online-doc.png";
 import p3 from "../Assets/images/foos.jpg";
@@ -16,11 +18,13 @@ function Dashbox() {
     <img class="rounded-xl" src={p1} alt="" />
     <div class="flex justify-between items-center">
       <div>
-        <h1 class="mt-5 text-2xl font-semibold">Visit Now</h1>
-        <p class="mt-2">$11.99</p>
+        <h3 class="mt-5 text-lg font-semibold">Health Monitoring</h3>
+        <p class=" mt-2">Free</p>
       </div>
       <div>
-        <button class="text-white text-md font-semibold bg-green-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Buy Now</button>
+        <a href='https://www.nal.usda.gov/human-nutrition-and-food-safety9'>
+        <button class="text-white text-md font-semibold bg-blue-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Visit Now</button>
+        </a>
       </div>
     </div>
   </div>
@@ -30,11 +34,15 @@ function Dashbox() {
     <img class="rounded-xl" src={p2} alt="" />
     <div class="flex justify-between items-center">
       <div>
-        <h1 class="mt-5 text-2xl font-semibold">Aloe Cactus</h1>
-        <p class="mt-2">$11.99</p>
+        <h1 class="mt-5 text-lg font-semibold">Consult doctor </h1>
+        <p class="mt-2">Free</p>
       </div>
       <div>
-        <button class="text-white text-md font-semibold bg-green-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Buy Now</button>
+        <a href='https://calldoctorabhi.herokuapp.com/ '>
+        <Link className="flex items-center" to="/dlist">
+        <button class="text-white text-md font-semibold bg-blue-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Find Doctor</button>
+        </Link>
+        </a>
       </div>
     </div>
   </div>
@@ -48,11 +56,13 @@ function Dashbox() {
     <img class="rounded-xl" src={p3} alt="" />
     <div class="flex justify-between items-center">
       <div>
-        <h1 class="mt-5 text-2xl font-semibold">Aloe Cactus</h1>
-        <p class="mt-2">$11.99</p>
+        <h1 class="mt-5 text-lg font-semibold">Nutrients Facts</h1>
+        <p class="mt-2">Free</p>
       </div>
       <div>
-        <button class="text-white text-md font-semibold bg-green-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Buy Now</button>
+        <a href='https://www.nal.usda.gov/human-nutrition-and-food-safety/'>
+        <button class="text-white text-md font-semibold bg-blue-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Get detail</button>
+        </a>
       </div>
     </div>
   </div>
@@ -62,11 +72,11 @@ function Dashbox() {
     <img class="rounded-xl" src={p4} alt="" />
     <div class="flex justify-between items-center">
       <div>
-        <h1 class="mt-5 text-2xl font-semibold">Aloe Cactus</h1>
-        <p class="mt-2">$11.99</p>
+        <h1 class="mt-5 text-lg font-semibold">Diseases Info</h1>
+        <p class="mt-2">Free</p>
       </div>
       <div>
-        <button class="text-white text-md font-semibold bg-green-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Buy Now</button>
+        <button class="text-white text-md font-semibold bg-blue-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">Get Info</button>
       </div>
     </div>
   </div>

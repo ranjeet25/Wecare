@@ -58,7 +58,7 @@ function Navigation() {
           className="p-1 font-normal"
         >
           
-           <Link className="flex items-center" to="/test">TEST</Link>
+           <Link className="flex items-center" to="/test">About us</Link>
          
         </Typography>
       </ul>
@@ -73,7 +73,7 @@ function Navigation() {
             variant="small"
             className="mr-4 cursor-pointer py-1.5 font-normal"
           >
-            <span>WeCare</span>
+            <span className='font-semibold text-lg'>WeCare</span>
           </Typography>
           
           <div className="hidden lg:block">{navList}</div>

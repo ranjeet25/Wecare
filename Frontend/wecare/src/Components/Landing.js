@@ -25,17 +25,17 @@ function Landing() {
             </p> */}
             </div>
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
+              We Care for You !!
               <br className="hidden md:block" />
-              jumps over{" "}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
+             
+              <span className="inline-block text-lg text-blue-400">
+                If we not then who will ??
               </span>
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+            <p className="text-xs text-gray-800 md:text-xs font-semibold">
+              It is a special webapp build for human welfare
+              health comes before anything else. Our Heart of project is online consultancy 
+              in which patient directly talk to top most Qualified  Doctor's
             </p>
           </div>
           <div className="flex items-center">

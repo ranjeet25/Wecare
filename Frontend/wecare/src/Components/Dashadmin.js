@@ -18,7 +18,7 @@ export default function Dashadmin() {
                     {/* Sidebar starts */}
                     <div className="absolute lg:relative w-64 h-screen shadow bg-gray-100 hidden lg:block">
                         <div className="h-16 w-full flex items-center px-8">
-                           WECARE
+                            Hello <span className="ml-2 font-semibold">Ranjeet saw</span>
                         </div>
                         <ul aria-orientation="vertical" className=" py-6">
                             <li className="pl-6 cursor-pointer text-white text-sm leading-3 tracking-normal pb-4 pt-5 text-indigo-700 focus:text-indigo-700 focus:outline-none">
