@@ -1,22 +1,22 @@
 # Wecare ⚕️
 This project is Built for **ACHEMIA HACK 2022** (24 Hour Hackathon 🧑‍💻)
 
-# Motive ✅
+## Motive ✅
 To build A platform to integrate Peoples staying in Remote Villages and 
 Doctors who want to serve People at free of cost of at a nominal price.
 
 
 
-# How does online doctor consultation work? 📍
+## How does online doctor consultation work? 📍
 We help you connect to a doctor in just 60 seconds. All you have to do is tell us your symptoms or health problems, 
 choose the speciality! we alert our panel of verified, 
 high-quality doctors and allocate a doctor to your consultation.
 
-# Other features ⭐
+## Other features ⭐
 1. Food Nutrients Details
 2. Diseases Information and Symtomps
 
-# Screenshots 🔥
+## Screenshots 🔥
 Landing Page ✅
 
 ![image](https://user-images.githubusercontent.com/79698226/194845772-0adc6a6a-f064-4749-ae04-afab7a8901c5.png)
@@ -29,12 +29,12 @@ Dashboard ✅
 
 ![image](https://user-images.githubusercontent.com/79698226/194846018-7aa8c649-e872-4677-acaa-0687694c8e91.png)
 
-# Video consult
+## Video consult
 We have hosted our video consultant app seperatly, you can check below:⬇️ 
 
 https://calldoctorabhi.herokuapp.com/
 
-# Authors 🧑‍💻
+## Authors 🧑‍💻
 
 🔥 [@ranjeet25](https://github.com/ranjeet25)
 
