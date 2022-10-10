@@ -29,12 +29,17 @@ Dashboard ✅
 
 ![image](https://user-images.githubusercontent.com/79698226/194846018-7aa8c649-e872-4677-acaa-0687694c8e91.png)
 
+# Video consult
+We have hosted our video consultant app seperatly, you can check below:⬇️ 
+
+https://calldoctorabhi.herokuapp.com/
+
 # Authors 🧑‍💻
 
-@ranjeet25 🔥
+🔥 [@ranjeet25](https://github.com/ranjeet25)
 
-@rishul25 🔥
+🔥 [@rishul25](https://github.com/rishul25)
 
-@ysabhishekmishra 🔥
+🔥 [@ysabhishekmishra](https://www.github.com/ysabhishekmishra)
 
-@manav0702 🔥
+🔥 [@manav0702](https://github.com/manav0702)
